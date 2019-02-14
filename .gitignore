@@ -1,0 +1,7 @@
+.idea*
+*.iml
+
+*.zip
+target/
+
+.faketorio

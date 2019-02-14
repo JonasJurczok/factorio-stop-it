@@ -1,0 +1,11 @@
+{
+  "name": "Stop-It",
+  "version": "16.1.0",
+  "title": "Stop It",
+  "author": "Jason Miles",
+  "contact": "jonasjurczok+factorio@gmail.com",
+  "homepage": "https://github.com/JonasJurczok/factorio-stop-it",
+  "factorio_version": "0.16",
+  "dependencies": ["base >= 0.16"],
+  "description": "This mod forces you to stop playing after a time that you can set yourself."
+}
