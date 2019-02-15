@@ -2,8 +2,8 @@ require('todo.style')
 
 local hotkey = {
     type = "custom-input",
-    name = "todolist-toggle-ui",
-    key_sequence = "SHIFT + T",
+    name = "stopit-toggle-ui",
+    key_sequence = "CTRL + SHIFT + S",
     consuming = "none",
 }
 data:extend({hotkey})

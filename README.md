@@ -5,6 +5,18 @@ A mod tomake you stop playing after a set time.
 
 ## Why?
 
+Sometimes you get lost in the game.
+To prevent coming late to work or somehwere else this mod helps you quit playing.
+
+## Usage
+
+Press the key combination (default `CTRL + SHIFT + S`) to open the ui.
+
+There you can configure a countdown. At the end of the countdown the game will be closed.
+
+The mod gives you warnings at certain intervals before the countdown finishes.
+
+ATTENTION!: The mod does NOT save your game for you! Unfortunately this is not possible with the API.
 
 ## Attributions
 Credit where credit is due :)
