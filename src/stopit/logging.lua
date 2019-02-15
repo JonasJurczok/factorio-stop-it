@@ -1,5 +1,5 @@
 -- TODO: String format support missing
-function todo.log(message)
+function stopit.log(message)
     if type(message) == 'table' then
         message = serpent.dump(message) .. ' [' .. #message .. ']'
     end
@@ -7,7 +7,7 @@ function todo.log(message)
 
     if game then
         for _, p in pairs(game.players) do
-            if (todo.show_log(p)) then
+            if (stopit.show_log(p)) then
                 p.print(message)
             end
         end
@@ -16,6 +16,6 @@ function todo.log(message)
     end
 end
 
-function todo.show_log(player)
-    return settings.get_player_settings(player)["todolist-show-log"].value
+function stopit.show_log(player)
+    return settings.get_player_settings(player)["stopit-show-log"].value
 end
